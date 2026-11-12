@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="siteheader" style="margin-bottom: 0%;">
+        <div class="navwrap">
+            <a class="brand" href="./index.html" aria-label="Tasty home">
+                <img src="./img/logo1.png" alt="Tasty restaurant logo" onerror="this.style.display='none'">
+            </a>
+            <button class="nav-toggle" type="button" aria-controls="main-navigation" aria-expanded="false"
+                aria-label="Open navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <button class="nav-backdrop" type="button" aria-label="Close navigation" tabindex="-1"></button>
+            <nav class="mainnav" id="main-navigation" aria-label="Main navigation">
+                <div class="mobile-nav-heading">
+                    <span>Explore</span>
+                    <button class="nav-close" type="button" aria-label="Close navigation">&times;</button>
+                </div>
+                <a href="./index.html">Home</a>
+                <a href="./about.html">About</a>
+                <a href="./menu.html">Menu</a>
+                <a href="./reservation.html">Reservation</a>
+                <a href="./contact.html" class="active">Contact Us</a>
+                <a class="btn mobile-nav-cta" href="./added.html">Add Your Details</a>
+            </nav>
+            <a class="btn mobile-nav-cta" href="./added.html">Add Your Details</a>
+        </div>
+    </header>
+    <main class="contact-page">
+        <section class="page-hero section-shell">
+            
+            <h1>Enter your Feedback: <br></h1>
+           
+        </section>
+
+        <section class="contact-layout section-shell">
+            <div class="contact-panel contact-details">
+                <h2>Visit Us</h2>
+                <div class="detail-list">
+                    <div>
+                        <span class="detail-label">Address</span>
+                        <p>198 West 21th Street, Suite 721<br>New York, NY 10010</p>
+                    </div>
+                    <div>
+                        <span class="detail-label">Hours</span>
+                        <p>Mon - Sun<br>9:00 AM - 10:00 PM</p>
+                    </div>
+                    <div>
+                        <span class="detail-label">Phone</span>
+                        <p><a href="tel:+1235235598">+1 (235) 235-5598</a></p>
+                    </div>
+                    <div>
+                        <span class="detail-label">Email</span>
+                        <p><a href="mailto:hello@tasty.example">hello@tasty.example</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-panel contact-form-panel">
+                <h2>Send you Feedback</h2>
+                <form class="contact-form" action="#" method="post">
+                    <div class="field-row">
+                        <label for="name">Your name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name">
+                    </div>
+
+                    <div class="field-row">
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="field-row">
+                        <label for="phone">Phone number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                    </div>
+
+                    <div class="field-row">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Enter Your Feedback" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn contact-submit">Submitted Feedback</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="footer-grid section-shell">
+            <div class="footer-brand">
+                <a class="brand" href="./index.html"><span>Events<span class="brand-dot">:</span></span></a>
+                <p>Fresh ingredients, warm service, and unforgettable moments in every visit.</p>
+            </div>
+            <div>
+                <h3>Links</h3>
+                <a href="./index.html">Home</a>
+                <a href="./menu.html">Menu</a>
+                <a href="./about.html">About us</a>
+                <a href="./reservation.html">Reservation</a>
+            </div>
+            <div>
+                <h3>Visit us</h3>
+                <p>198 West 21th Street, Suite 721</p>
+                <p>Mon – Sun · 9:00 AM – 10:00 PM</p>
+            </div>
+            <div>
+                <h3>Contact Information</h3>
+                <a href="tel:+1235235598">+1 (235) 235-5598</a>
+                <a href="mailto:hello@tasty.example">hello@tasty.example</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <h3>© 2026 Tasty Restaurant. Made with care.</h3>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

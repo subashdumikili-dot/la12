@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty—Restaurant & Cafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="siteheader">
+        <div class="navwrap">
+            <a class="brand" href="#home" aria-label="Tasty home">
+                <img src="./img/logo1.png" alt="" onerror="this.style.display='none'">
+            </a>
+            <button class="nav-toggle" type="button" aria-controls="main-navigation" aria-expanded="false"
+                aria-label="Open navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <button class="nav-backdrop" type="button" aria-label="Close navigation" tabindex="-1"></button>
+            <nav class="mainnav" id="main-navigation">
+                <div class="mobile-nav-heading">
+                    <span>Explore</span>
+                    <button class="nav-close" type="button" aria-label="Close navigation">&times;</button>
+                </div>
+                <a href="#home">Home</a>
+                <a href="./about.html">About</a>
+                <a href="./menu.html">Menu</a>
+                <a href="./reservation.html">Reservation</a>
+                <a href="./contact.html">Contact Us</a>
+                <a class="btn mobile-nav-cta" href="./added.html">Add Your Details</a>
+            </nav>
+            <a class="btn mobile-nav-cta" href="./added.html">Add Your Details</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-shade"></div>
+            <div class="hero-content">
+                <h1>Fresh flavours.<br><span>Beautiful moments.</span></h1>
+                <div class="hero-actions">
+                    <a class="btn" href="#menu">Explore our menu</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="intro section-shell" id="About">
+            <div class="intro-image">
+                <img src="./img/bo2.png" alt="Freshly prepared restaurant dish" onerror="this.style.display='none'">
+            </div>
+            <div class="intro-copy">
+                <h2>More than a meal.<br>It's an experience.</h2>
+                <p>We believe great dining starts with fresh ingredients, thoughtful preparation, and a warm welcome.
+                    From a quick coffee to a relaxed meal with friends, there's always a place for you at our table.</p>
+            </div>
+        </section>
+
+        <section class="menu-section" id="menu">
+            <div class="section-shell">
+                <div class="section-heading">
+                    <div class="menu-grid" id="gallery">
+                        <article class="menu-card">
+                            <div class="food-image"><img src="./img/bo1.png" alt="Crispy fried chicken"></div>
+                            <div class="food-info">
+                                <div>
+                                    <h3>Crispy Chicken</h3><span class="price">$12.00</span>
+                                    <p>Golden, crunchy and full of flavour</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="menu-card">
+                            <div class="food-image"><img src="./img/bo4.png" alt="Fresh snack platter"></div>
+                            <div class="food-info">
+                                <div>
+                                    <h3>Chef's Snack Plate</h3><span class="price">$7.00</span>
+                                    <p>A tasty bite for any time</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="menu-card">
+                            <div class="food-image" style="position: relative;"><img src="./img/bo3.png"
+                                    alt="Juicy burger"><span class="image-stamp"
+                                    style="position: absolute; top: 12px; right: 12px; display: grid; place-items: center; width: 64px; height: 64px; border: 2px solid currentColor; border-radius: 50%; background: #fff; color: #a43b24; font-size: 12px; font-weight: 700; text-align: center; transform: rotate(12deg);">Guest<br>favorite</span>
+                            </div>
+                            <div class="food-info">
+                                <div>
+                                    <h3>Classic Burger</h3><span class="price">$9.90</span>
+                                    <p>Juicy, satisfying and delicious</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="menu-card">
+                            <div class="food-image"><img src="./img/g1.png" alt="Sweet dessert"></div>
+                            <div class="food-info">
+                                <div>
+                                    <h3>Sweet Treat</h3><span class="price">$8.00</span>
+                                    <p>A little happiness after a meal</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="menu-card">
+                            <div class="food-image"><img src="./img/g2.png" alt="Freshly prepared dish"></div>
+                            <div class="food-info">
+                                <div>
+                                    <h3>House Special</h3><span class="price">$7.90</span>
+                                    <p>One of our guest favourites</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="menu-card">
+                            <div class="food-image"><img src="./img/g3.png" alt="A complete meal"></div>
+                            <div class="food-info">
+                                <div>
+                                    <h3>Daily Meal</h3><span class="price">$20.00</span>
+                                    <p>A hearty plate made fresh</p>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+        </section>
+        <section style="background-color: rgba(22, 22, 21, 0.637);margin-bottom: 30px;margin-top: 0px;"
+            class="daily-special">
+            <div class="special-inner">
+                <div>
+                    <h2>Good food brings<br>people together.</h2>
+                </div>
+                <p>Whether you're stopping by for lunch, catching up over coffee, or enjoying dinner with family, we'll
+                    make it a moment worth remembering.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="footer-grid section-shell">
+            <div class="footer-brand">
+                <a class="brand" href="#home"><span>Events<span class="brand-dot">:</span></span></a>
+                <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+            </div>
+            <div>
+                <h3>Links:</h3><a href="#home">Home</a><a href="#menu">Menu</a><a href="#about">About us</a><a
+                    href="#gallery">Gallery</a>
+            </div>
+            <div>
+                <h3>Visit us</h3>
+                <p>198 West 21th Street, Suite 721</p>
+                <p>Mon – Sun · 9:00 AM – 10:00 PM</p>
+            </div>
+            <div>
+                <h3>Contact Information:</h3><a href="tel:+1235235598">10016 + 1235 2355 98</a><a
+                    href="mailto:hello@tasty.example"> info@yoursite.com freehtml5.coF</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <h3>© 2026 Tasty Restaurant. Made with care.</h3>
+        </div>
+    </footer>
+
+    <script>
+        const body = document.body;
+        const navToggle = document.querySelector('.nav-toggle');
+        const navBackdrop = document.querySelector('.nav-backdrop');
+        const navClose = document.querySelector('.nav-close');
+        const navLinks = document.querySelectorAll('.mainnav a');
+
+        function closeNav() {
+            body.classList.remove('nav-open');
+
+            if (navToggle) {
+                navToggle.setAttribute('aria-expanded', 'false');
+            }
+        }
+
+        function openNav() {
+            body.classList.add('nav-open');
+
+            if (navToggle) {
+                navToggle.setAttribute('aria-expanded', 'true');
+            }
+        }
+
+        if (navToggle) {
+            navToggle.addEventListener('click', () => {
+                const isOpen = body.classList.contains('nav-open');
+                isOpen ? closeNav() : openNav();
+            });
+        }
+
+        if (navBackdrop) {
+            navBackdrop.addEventListener('click', closeNav);
+        }
+
+        if (navClose) {
+            navClose.addEventListener('click', closeNav);
+        }
+
+        navLinks.forEach((link) => {
+            link.addEventListener('click', closeNav);
+        });
+
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 767) {
+                closeNav();
+            }
+        });
+    </script>
+</body>
+
+</html>
